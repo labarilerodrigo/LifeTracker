@@ -1,0 +1,5 @@
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.Interfaces\bin\Debug\LifeTracker.Core.Interfaces.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.Interfaces\bin\Debug\LifeTracker.Core.Interfaces.pdb
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.Interfaces\obj\Debug\LifeTracker.Core.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.Interfaces\obj\Debug\LifeTracker.Core.Interfaces.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.Interfaces\obj\Debug\LifeTracker.Core.Interfaces.pdb

@@ -1,0 +1,9 @@
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\bin\Debug\LifeTracker.Core.BE.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\bin\Debug\LifeTracker.Core.BE.pdb
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\bin\Debug\LifeTracker.Core.Interfaces.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\bin\Debug\LifeTracker.Core.Interfaces.pdb
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\obj\Debug\LifeTracker.Core.BE.csprojAssemblyReference.cache
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\obj\Debug\LifeTracker.Core.BE.csproj.CoreCompileInputs.cache
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\obj\Debug\LifeTracker.Core.BE.csproj.CopyComplete
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\obj\Debug\LifeTracker.Core.BE.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.Core.BE\obj\Debug\LifeTracker.Core.BE.pdb

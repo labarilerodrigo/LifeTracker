@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="20.2" version="20.2" Modules="professional" RootPath="." Language="en" Id="{8683420E-F7E9-4B6F-B8E7-7DD882961C98}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 20.2 build 2c3f1cf9" ValueLocId="-"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_DOTNET_VERSION"/>
+    <ROW Property="AI_REQUIRED_DOTNET_DISPLAY" MultiBuildValue="DefaultBuild:4.0" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_VERSION" MultiBuildValue="DefaultBuild:4.0.1" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPPRODUCTICON" Value="LifeTracker.exe" Type="8"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="Manufacturer" Value="LifeTracker"/>
+    <ROW Property="ProductCode" Value="1033:{D276AA48-A110-4120-B7BF-37E71F4656AD} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="LifeTracker"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{A1AC6E5E-2517-4E21-AE5C-6DFC9B3ED7D0}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{B38D4DF1-1863-482A-B75D-0FBE1CF7E6B8}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="APPDIR" ComponentId="{F2D0F254-71D5-4C0B-A514-8D05BBDC3D01}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Bunifu.Charts.WinForms.dll" ComponentId="{A82CAE4B-1B4F-40A4-B6EF-9BE563368078}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.Charts.WinForms.dll"/>
+    <ROW Component="Bunifu.Charts.WinForms.xml" ComponentId="{1FAFDC1E-4DDE-4C7E-9033-E75B3535D747}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.Charts.WinForms.xml" Type="0"/>
+    <ROW Component="Bunifu.Licensing.dll" ComponentId="{CFA8A705-B3ED-4769-ADF1-1AD77A5261CE}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.Licensing.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.1.5.3.dll" ComponentId="{9DFBAE1E-C99E-4FBC-81DE-38A00D495E54}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.1.5.3.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuButton.dll" ComponentId="{6CF48636-4930-4750-932F-8D84EEA20FF2}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuButton.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuCheckBox.dll" ComponentId="{A4058E69-5000-4434-B2A7-735E629B44B2}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuCheckBox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuDataGridView.dll" ComponentId="{ECFF0C4B-A8B9-465A-A1E0-22B38506465F}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuDataGridView.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuDropdown.dll" ComponentId="{C5EF8F1B-E0EA-4F3E-85B6-80C0E24D3DF5}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuDropdown.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuFormDock.dll" ComponentId="{16CC9BD6-E5A8-4D90-A3EE-2C7AE0A479D8}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuFormDock.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuGradientPanel.dll" ComponentId="{CA03712A-C567-4113-9F60-5A34F98B26E4}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuGradientPanel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuGroupBox.dll" ComponentId="{F322DA60-8990-4B69-8705-4DF03E3022A7}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuGroupBox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuImageButton.dll" ComponentId="{C1F42C88-BC82-40D4-8C40-F956D8E5E451}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuImageButton.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuLabel.dll" ComponentId="{2C0CF29B-C4F5-457E-89F2-257AE23DF74C}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuLabel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuPages.dll" ComponentId="{2FFC5C43-86DC-48EC-B73A-2D2B4470E106}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuPages.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuPanel.dll" ComponentId="{7BCED109-AA81-43FF-AD28-23AB49921D4B}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuPanel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuPictureBox.dll" ComponentId="{70C74B70-79A3-429B-B384-39710F77235F}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuPictureBox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuScrollBar.dll" ComponentId="{B892342C-5BFA-4450-910E-F34E6B272014}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuScrollBar.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuShadowPanel.dll" ComponentId="{4A563A1D-EFB5-49FD-BBBD-4BD569BD86E2}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuShadowPanel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuShapes.dll" ComponentId="{78FE30FC-1049-48C9-A079-5A94FC43AF95}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuShapes.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuSlider.dll" ComponentId="{146A282B-8D94-4003-9EB3-40D346B9DF94}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuSlider.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuSnackbar.dll" ComponentId="{228A9723-012B-4031-A153-4B6CDCEE7708}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuSnackbar.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuTextbox.dll" ComponentId="{AF8B1FBA-6D1D-48DE-9231-A845FA8E600F}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuTextbox.dll"/>
+    <ROW Component="LifeTracker.Core.BE.dll" ComponentId="{327C43DC-8E3B-4034-8CD3-46BC8A6F29E5}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Core.BE.dll"/>
+    <ROW Component="LifeTracker.Core.BLL.dll" ComponentId="{589BA38A-A2FE-45AB-95F4-92F762B098BF}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Core.BLL.dll"/>
+    <ROW Component="LifeTracker.Core.Interfaces.dll" ComponentId="{F9D9C571-E03D-4D43-B902-DC7BEF47CFA9}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Core.Interfaces.dll"/>
+    <ROW Component="LifeTracker.DataAccess.DAO.dll" ComponentId="{8FB50E4D-8A9B-4C4C-9270-A84E7D27D7BE}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.DataAccess.DAO.dll"/>
+    <ROW Component="LifeTracker.DataAccess.Mapper.dll" ComponentId="{5ADA7039-AEA1-42AF-940C-5E811BB4F9EF}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.DataAccess.Mapper.dll"/>
+    <ROW Component="LifeTracker.Services.Backup.dll" ComponentId="{D23629D8-DB59-464B-9703-ECB0A4045725}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Services.Backup.dll"/>
+    <ROW Component="LifeTracker.Services.Cryptography.dll" ComponentId="{E3E90BAC-15B5-48ED-8CD0-4DB064787945}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Services.Cryptography.dll"/>
+    <ROW Component="LifeTracker.Services.IAM.dll" ComponentId="{460E796F-F4D2-4EAC-B41F-ACE016C397D2}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Services.IAM.dll"/>
+    <ROW Component="LifeTracker.Services.Login.dll" ComponentId="{F97700A7-EAB5-409A-9CEE-8B77553EF83C}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.Services.Login.dll"/>
+    <ROW Component="LifeTracker.UI.exe" ComponentId="{42254A28-AE6B-4015-B511-4221F475A2EA}" Directory_="APPDIR" Attributes="0" KeyPath="LifeTracker.UI.exe"/>
+    <ROW Component="ProductInformation" ComponentId="{3A0C19F4-502C-4E11-8E80-712ED100F691}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{778B0145-50E9-4B66-9AB1-B06E5811A7BC}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="System.Configuration.ConfigurationManager.dll" ComponentId="{090861AE-99D7-442E-B3FB-8F72DA67208C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Configuration.ConfigurationManager.dll"/>
+    <ROW Component="System.Security.AccessControl.dll" ComponentId="{08ECABC9-68A8-4161-A76E-BCA493D81565}" Directory_="APPDIR" Attributes="0" KeyPath="System.Security.AccessControl.dll"/>
+    <ROW Component="System.Security.Cryptography.ProtectedData.dll" ComponentId="{558BEE5E-E3F0-4739-B948-03FF24B24F49}" Directory_="APPDIR" Attributes="0" KeyPath="System.Security.Cryptography.ProtectedData.dll"/>
+    <ROW Component="System.Security.Permissions.dll" ComponentId="{AA710404-E6C9-40D8-8B7F-3FC17E0272E5}" Directory_="APPDIR" Attributes="0" KeyPath="System.Security.Permissions.dll"/>
+    <ROW Component="netstandard.dll" ComponentId="{CAC2E76B-9AE1-42A1-AA93-661ADC61EECE}" Directory_="APPDIR" Attributes="0" KeyPath="netstandard.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Bunifu.Charts.WinForms.dll" Component_="Bunifu.Charts.WinForms.dll" FileName="BUNIFU~1.DLL|Bunifu.Charts.WinForms.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.Charts.WinForms.dll" SelfReg="false"/>
+    <ROW File="Bunifu.Charts.WinForms.xml" Component_="Bunifu.Charts.WinForms.xml" FileName="BUNIFU~1.XML|Bunifu.Charts.WinForms.xml" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.Charts.WinForms.xml" SelfReg="false"/>
+    <ROW File="Bunifu.Licensing.dll" Component_="Bunifu.Licensing.dll" FileName="BUNIFU~2.DLL|Bunifu.Licensing.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.Licensing.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.1.5.3.dll" Component_="Bunifu.UI.WinForms.1.5.3.dll" FileName="BUNIFU~3.DLL|Bunifu.UI.WinForms.1.5.3.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuButton.dll" Component_="Bunifu.UI.WinForms.BunifuButton.dll" FileName="BUNIFU~4.DLL|Bunifu.UI.WinForms.BunifuButton.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuCheckBox.dll" Component_="Bunifu.UI.WinForms.BunifuCheckBox.dll" FileName="BUNIFU~5.DLL|Bunifu.UI.WinForms.BunifuCheckBox.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuDataGridView.dll" Component_="Bunifu.UI.WinForms.BunifuDataGridView.dll" FileName="BUNIFU~6.DLL|Bunifu.UI.WinForms.BunifuDataGridView.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuDropdown.dll" Component_="Bunifu.UI.WinForms.BunifuDropdown.dll" FileName="BUNIFU~7.DLL|Bunifu.UI.WinForms.BunifuDropdown.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuFormDock.dll" Component_="Bunifu.UI.WinForms.BunifuFormDock.dll" FileName="BUNIFU~8.DLL|Bunifu.UI.WinForms.BunifuFormDock.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuGradientPanel.dll" Component_="Bunifu.UI.WinForms.BunifuGradientPanel.dll" FileName="BUNIFU~9.DLL|Bunifu.UI.WinForms.BunifuGradientPanel.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuGroupBox.dll" Component_="Bunifu.UI.WinForms.BunifuGroupBox.dll" FileName="BUNIF~10.DLL|Bunifu.UI.WinForms.BunifuGroupBox.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuImageButton.dll" Component_="Bunifu.UI.WinForms.BunifuImageButton.dll" FileName="BUNIF~11.DLL|Bunifu.UI.WinForms.BunifuImageButton.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuLabel.dll" Component_="Bunifu.UI.WinForms.BunifuLabel.dll" FileName="BUNIF~12.DLL|Bunifu.UI.WinForms.BunifuLabel.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuPages.dll" Component_="Bunifu.UI.WinForms.BunifuPages.dll" FileName="BUNIF~13.DLL|Bunifu.UI.WinForms.BunifuPages.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuPanel.dll" Component_="Bunifu.UI.WinForms.BunifuPanel.dll" FileName="BUNIF~14.DLL|Bunifu.UI.WinForms.BunifuPanel.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuPictureBox.dll" Component_="Bunifu.UI.WinForms.BunifuPictureBox.dll" FileName="BUNIF~15.DLL|Bunifu.UI.WinForms.BunifuPictureBox.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuScrollBar.dll" Component_="Bunifu.UI.WinForms.BunifuScrollBar.dll" FileName="BUNIF~16.DLL|Bunifu.UI.WinForms.BunifuScrollBar.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuShadowPanel.dll" Component_="Bunifu.UI.WinForms.BunifuShadowPanel.dll" FileName="BUNIF~17.DLL|Bunifu.UI.WinForms.BunifuShadowPanel.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuShapes.dll" Component_="Bunifu.UI.WinForms.BunifuShapes.dll" FileName="BUNIF~18.DLL|Bunifu.UI.WinForms.BunifuShapes.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuSlider.dll" Component_="Bunifu.UI.WinForms.BunifuSlider.dll" FileName="BUNIF~19.DLL|Bunifu.UI.WinForms.BunifuSlider.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuSnackbar.dll" Component_="Bunifu.UI.WinForms.BunifuSnackbar.dll" FileName="BUNIF~20.DLL|Bunifu.UI.WinForms.BunifuSnackbar.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuTextbox.dll" Component_="Bunifu.UI.WinForms.BunifuTextbox.dll" FileName="BUNIF~21.DLL|Bunifu.UI.WinForms.BunifuTextbox.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Core.BE.dll" Component_="LifeTracker.Core.BE.dll" FileName="LIFETR~1.DLL|LifeTracker.Core.BE.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Core.BE.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Core.BE.pdb" Component_="LifeTracker.Core.BE.dll" FileName="LIFETR~1.PDB|LifeTracker.Core.BE.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Core.BE.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.Core.BLL.dll" Component_="LifeTracker.Core.BLL.dll" FileName="LIFETR~2.DLL|LifeTracker.Core.BLL.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Core.BLL.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Core.BLL.pdb" Component_="LifeTracker.Core.BLL.dll" FileName="LIFETR~2.PDB|LifeTracker.Core.BLL.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Core.BLL.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.Core.Interfaces.dll" Component_="LifeTracker.Core.Interfaces.dll" FileName="LIFETR~3.DLL|LifeTracker.Core.Interfaces.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Core.Interfaces.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Core.Interfaces.pdb" Component_="LifeTracker.Core.Interfaces.dll" FileName="LIFETR~3.PDB|LifeTracker.Core.Interfaces.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Core.Interfaces.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.DataAccess.DAO.dll" Component_="LifeTracker.DataAccess.DAO.dll" FileName="LIFETR~4.DLL|LifeTracker.DataAccess.DAO.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.DataAccess.DAO.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.DataAccess.DAO.pdb" Component_="LifeTracker.DataAccess.DAO.dll" FileName="LIFETR~4.PDB|LifeTracker.DataAccess.DAO.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.DataAccess.DAO.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.DataAccess.Mapper.dll" Component_="LifeTracker.DataAccess.Mapper.dll" FileName="LIFETR~5.DLL|LifeTracker.DataAccess.Mapper.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.DataAccess.Mapper.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.DataAccess.Mapper.pdb" Component_="LifeTracker.DataAccess.Mapper.dll" FileName="LIFETR~5.PDB|LifeTracker.DataAccess.Mapper.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.DataAccess.Mapper.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.Backup.dll" Component_="LifeTracker.Services.Backup.dll" FileName="LIFETR~6.DLL|LifeTracker.Services.Backup.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.Backup.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.Backup.pdb" Component_="LifeTracker.Services.Backup.dll" FileName="LIFETR~6.PDB|LifeTracker.Services.Backup.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.Backup.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.Cryptography.dll" Component_="LifeTracker.Services.Cryptography.dll" FileName="LIFETR~7.DLL|LifeTracker.Services.Cryptography.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.Cryptography.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.Cryptography.pdb" Component_="LifeTracker.Services.Cryptography.dll" FileName="LIFETR~7.PDB|LifeTracker.Services.Cryptography.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.Cryptography.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.IAM.dll" Component_="LifeTracker.Services.IAM.dll" FileName="LIFETR~8.DLL|LifeTracker.Services.IAM.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.IAM.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.IAM.pdb" Component_="LifeTracker.Services.IAM.dll" FileName="LIFETR~8.PDB|LifeTracker.Services.IAM.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.IAM.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.Login.dll" Component_="LifeTracker.Services.Login.dll" FileName="LIFETR~9.DLL|LifeTracker.Services.Login.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.Login.dll" SelfReg="false"/>
+    <ROW File="LifeTracker.Services.Login.pdb" Component_="LifeTracker.Services.Login.dll" FileName="LIFETR~9.PDB|LifeTracker.Services.Login.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.Services.Login.pdb" SelfReg="false"/>
+    <ROW File="LifeTracker.UI.exe" Component_="LifeTracker.UI.exe" FileName="LIFETR~1.EXE|LifeTracker.UI.exe" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.UI.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="LifeTracker.UI.exe.config" Component_="Bunifu.Charts.WinForms.xml" FileName="LIFETR~1.CON|LifeTracker.UI.exe.config" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.UI.exe.config" SelfReg="false"/>
+    <ROW File="LifeTracker.UI.pdb" Component_="LifeTracker.UI.exe" FileName="LIFET~10.PDB|LifeTracker.UI.pdb" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\LifeTracker.UI.pdb" SelfReg="false"/>
+    <ROW File="netstandard.dll" Component_="netstandard.dll" FileName="NETSTA~1.DLL|netstandard.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\netstandard.dll" SelfReg="false"/>
+    <ROW File="System.Configuration.ConfigurationManager.dll" Component_="System.Configuration.ConfigurationManager.dll" FileName="SYSTEM~1.DLL|System.Configuration.ConfigurationManager.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Configuration.ConfigurationManager.dll" SelfReg="false"/>
+    <ROW File="System.Configuration.ConfigurationManager.xml" Component_="Bunifu.Charts.WinForms.xml" FileName="SYSTEM~1.XML|System.Configuration.ConfigurationManager.xml" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Configuration.ConfigurationManager.xml" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll" Component_="System.Security.AccessControl.dll" FileName="SYSTEM~2.DLL|System.Security.AccessControl.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Security.AccessControl.dll" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.xml" Component_="Bunifu.Charts.WinForms.xml" FileName="SYSTEM~2.XML|System.Security.AccessControl.xml" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Security.AccessControl.xml" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.ProtectedData.dll" Component_="System.Security.Cryptography.ProtectedData.dll" FileName="SYSTEM~3.DLL|System.Security.Cryptography.ProtectedData.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Security.Cryptography.ProtectedData.dll" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.ProtectedData.xml" Component_="Bunifu.Charts.WinForms.xml" FileName="SYSTEM~3.XML|System.Security.Cryptography.ProtectedData.xml" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Security.Cryptography.ProtectedData.xml" SelfReg="false"/>
+    <ROW File="System.Security.Permissions.dll" Component_="System.Security.Permissions.dll" FileName="SYSTEM~4.DLL|System.Security.Permissions.dll" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Security.Permissions.dll" SelfReg="false"/>
+    <ROW File="System.Security.Permissions.xml" Component_="Bunifu.Charts.WinForms.xml" FileName="SYSTEM~4.XML|System.Security.Permissions.xml" Attributes="0" SourcePath="..\LifeTracker.UI\bin\Debug\System.Security.Permissions.xml" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="151"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Setup Files" Languages="en" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="PreparePrereqDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\PreparePrereqDlg.aip"/>
+    <ROW Fragment="PrerequisitesDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\PrerequisitesDlg.aip"/>
+    <ROW Fragment="ProgressPrereqDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\ProgressPrereqDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="SetupTypeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\SetupTypeDlg.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\WelcomeDlg.aip"/>
+    <ROW Fragment="WelcomePrereqDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\WelcomePrereqDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control="Description" Type="Text" X="175" Y="89" Width="323" Height="220" Attributes="196611" Text="The setup has determined that some of the prerequisites needed to run [ProductName] are missing. This wizard will assist you in getting and installing those prerequisites. Click &quot;[Text_Next]&quot; to continue or &quot;[ButtonText_Cancel]&quot; to exit the [Wizard]." Order="800" TextLocId="Control.Text.WelcomePrereqDlg#Description" MsiKey="WelcomePrereqDlg#Description"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" Text="Preparing installation" TextStyle="Labels" Order="900" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel" MsiKey="WelcomePrereqDlg#PreparingLabel"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" Text="Installing" TextStyle="Labels" Order="1000" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel" MsiKey="WelcomePrereqDlg#InstallingLabel"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" Text="Finalizing installation" TextStyle="Labels" Order="1100" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel" MsiKey="WelcomePrereqDlg#FinalizingLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control_="Next" Event="NewDialog" Argument="PrerequisitesDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Back" Event="NewDialog" Argument="WelcomePrereqDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="102"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Next" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND SetupTypeOption=&quot;Custom&quot;" Ordering="202"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND SetupTypeOption=&quot;Custom&quot;" Ordering="1"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND SetupTypeOption=&quot;Custom&quot;" Ordering="101"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND SetupTypeOption=&quot;Custom&quot;" Ordering="202"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="102"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="203"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="1401"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="1403"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="1402"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="204"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AppSearchEx" Type="1" Source="Prereq.dll" Target="DoAppSearchEx"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="[#LifeTracker.UI.exe]"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.Charts.WinForms.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.Charts.WinForms.xml"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.Licensing.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.1.5.3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuCheckBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuDataGridView.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuDropdown.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuFormDock.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuGradientPanel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuGroupBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuImageButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuLabel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuPages.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuPanel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuPictureBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuScrollBar.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuShadowPanel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuShapes.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuSlider.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuSnackbar.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuTextbox.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Core.BE.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Core.BLL.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Core.Interfaces.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.DataAccess.DAO.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.DataAccess.Mapper.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Services.Backup.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Services.Cryptography.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Services.IAM.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.Services.Login.dll"/>
+    <ROW Feature_="MainFeature" Component_="LifeTracker.UI.exe"/>
+    <ROW Feature_="MainFeature" Component_="netstandard.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Configuration.ConfigurationManager.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Security.AccessControl.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Security.Cryptography.ProtectedData.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Security.Permissions.dll"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="LifeTracker.exe" SourcePath="..\LifeTracker.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_DOTNET_VERSION &gt;= AI_REQUIRED_DOTNET_VERSION" Description="[ProductName] cannot be installed on systems with .NET Framework version lower than [AI_REQUIRED_DOTNET_DISPLAY]." DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="LifeTracker.UI.exe" Directory_="SHORTCUTDIR" Name="LIFETR~1.EXE|LifeTracker.UI.exe" Component_="LifeTracker.UI.exe" Target="[#LifeTracker.UI.exe]" Description="LifeTracker.UI.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="LifeTracker.UI.exe_1" Directory_="DesktopFolder" Name="LIFETR~1.EXE|LifeTracker.UI.exe" Component_="LifeTracker.UI.exe" Target="[#LifeTracker.UI.exe]" Description="LifeTracker.UI.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="graphite"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="FDE9FBF14C64382AEFB5867591829B2" DisplayName=".NET Framework 4.6.1" SetupFileUrl="http://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe" Location="1" ExactSize="67681000" WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 10 version 1511 x86, Windows 10 version 1607 x86, Windows 10 version 1703 x86, Windows 10 version 1709 x86, Windows 10 version 1803 x86, Windows 10 version 1809 x86, Windows 10 version 1903 x86, Windows 10 version 1909 x86, Windows 10 version 2004 x86, Windows 10 version 20H2 x86, Windows 10 version 21H1 x86, Windows 10 version 21H2 x86" WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64, Windows 10 version 1511 x64, Windows 10 version 1607 x64, Windows 10 version 1703 x64, Windows 10 version 1709 x64, Windows 10 version 1803 x64, Windows 10 version 1809 x64, Windows 10 version 1903 x64, Windows 10 version 1909 x64, Windows 10 version 2004 x64, Windows 10 version 20H2 x64, Windows 10 version 21H1 x64, Windows 10 version 21H2 x64, Windows 11 x64, Windows Server x64" Operator="1" NoUiComLine="/q /norestart" Options="xy" MD5="864056903748706e251fec9f5d887ef9" TargetName=".NET Framework 4.6.1"/>
+    <ATTRIBUTE name="PrereqsOrder" value="FDE9FBF14C64382AEFB5867591829B2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="FDE9FBF14C64382AEFB5867591829B2Release" Prereq="FDE9FBF14C64382AEFB5867591829B2" SearchType="9" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G394270" Order="1" Property="PreReqSearch_FDE9FBF14C64382AEFB586"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SynchronizedFolderComponent">
+    <ROW Directory_="APPDIR" SourcePath="..\LifeTracker.UI\bin\Debug" ExcludePattern="*~|#*#|%*%|._|CVS|.cvsignore|SCCS|vssver.scc|mssccprj.scc|vssver2.scc|.svn|.DS_Store" ExcludeFlags="6"/>
+  </COMPONENT>
+</DOCUMENT>

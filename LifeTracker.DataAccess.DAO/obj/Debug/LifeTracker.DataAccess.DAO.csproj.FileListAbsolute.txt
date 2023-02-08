@@ -1,0 +1,5 @@
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.DataAccess.DAO\bin\Debug\LifeTracker.DataAccess.DAO.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.DataAccess.DAO\bin\Debug\LifeTracker.DataAccess.DAO.pdb
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.DataAccess.DAO\obj\Debug\LifeTracker.DataAccess.DAO.csproj.CoreCompileInputs.cache
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.DataAccess.DAO\obj\Debug\LifeTracker.DataAccess.DAO.dll
+C:\Users\RLabarile\Dropbox\Facultad\Analista Programador\En Curso\20 - Trabajo Final\TPs\VS_Solution\LifeTracker\LifeTracker.DataAccess.DAO\obj\Debug\LifeTracker.DataAccess.DAO.pdb
